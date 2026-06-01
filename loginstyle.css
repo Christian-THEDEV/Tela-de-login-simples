@@ -81,3 +81,16 @@ input {
 .afastar{
     margin-top:20px;
 }
+
+.watermark {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size:18px;
+    text-decoration: none;
+    display: inline-block;
+}
